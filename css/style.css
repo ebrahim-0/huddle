@@ -101,6 +101,7 @@ header img {
   }
   header button {
     padding: 5px 8px;
+    width: 110px;
   }
 }
 .loading {
@@ -196,6 +197,11 @@ header img {
     margin-top: 25px;
   }
 }
+@media (width<=767px) {
+  .grow .container .text {
+    width: fit-content;
+  }
+}
 
 .flow .container {
   display: flex;
@@ -227,6 +233,12 @@ header img {
   .flow .container img {
     width: 100%;
     margin-top: 25px;
+  }
+}
+
+@media (width<=767px) {
+  .flow .container .text {
+    width: fit-content;
   }
 }
 .users {
@@ -263,6 +275,11 @@ header img {
   .users .container img {
     width: 100%;
     margin-top: 25px;
+  }
+}
+@media (width<=767px) {
+  .users .container .text {
+    width: fit-content;
   }
 }
 .build {
